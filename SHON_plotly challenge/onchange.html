@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+</head>
+<body>
+	<select data-am-selected id = "s1">
+	  <option value="a">Apple</option>
+	  <option value="b" selected>Banana</option>
+	  <option value="o">Orange</option>
+	  <option value="m">Mango</option>
+	  <option value="d" disabled>禁用鸟</option>
+	</select>
+	<script type="text/javascript" src = "https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+	<script type="text/javascript">
+		document.getElementById("s1").onchange =function(){
+			console.log(this.options[this.selectedIndex].innerHTML);
+		}
+	</script>
+</body>
+</html>
