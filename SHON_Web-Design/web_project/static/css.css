@@ -1,0 +1,134 @@
+
+body {
+    background: lightgray;
+    overflow: scroll;
+    }
+  
+h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: "Georgia";
+    color: rgb(79, 112, 177);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 112, 177);
+    }
+  
+h2 {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "Georgia";
+    color: rgb(79, 112, 177);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 112, 177);
+    text-align: left;
+    }
+  
+.box {
+    background: white;
+    padding: 30px;
+    align-items: flex-end;
+    justify-content: center;
+    }
+  
+p {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(24, 3, 3, 0.747)
+        }
+    
+
+
+
+.img1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    }
+  
+.img2 {
+    width: 43%;
+    height: auto;
+    display: inline-block;
+    }
+    
+div.imgbox {
+    text-align: center;
+    
+
+}
+.img3 {
+    width: 500px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+
+}
+.selected{
+    border-style:solid;
+    border-color: darkblue;
+
+    
+}
+.comp {
+    background-color: white;
+    margin: auto;
+    padding: 3% 28% 1% 27%;
+    text-align: center;
+}
+figure {
+    margin: auto;
+    display: inline-block;
+    padding: 20px;
+    }
+
+figcaption {
+    color: rgb(79, 112, 177);
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+    caption-side: top;
+    }
+
+.content {
+    background: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.mytable {
+    background: white;
+    padding: 1% 15% 1% 15%;
+    position: relative;
+ 
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    }
+@media only screen and (min-device-width: 1600px) {
+
+    img.after{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+@media only screen and (min-device-width: 200px) {
+
+    div{
+        display: inline-block;
+    }
+
+    img.after{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
